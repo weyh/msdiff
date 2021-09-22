@@ -14,7 +14,7 @@ int main(int argc, char **argv)
 {
     if (argc < 3)
     {
-        fmt::print(stderr, "Usage: msdiff <src> <comp1> [comp2] [comp3] ...\n");
+        fmt::print(stderr, "Usage: {} <src> <comp 0> [comp 1] [comp 2] [comp N]\n", argv[0]);
         return 1;
     }
 
